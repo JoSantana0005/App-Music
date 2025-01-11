@@ -6,7 +6,7 @@
    <div>
     <h3>Tecnologies</h3>
     <p>The technologies that I am going to use for this project are the following:</p>
-    <div>
+    <div align="center">
      <img src="https://i.ibb.co/tL1v6Jt/html-5.png" witdh="65px" height="65px">
      <img src="https://i.ibb.co/j86Drxg/css-3.png" witdh="65px" height="65px">
      <img src="https://i.ibb.co/pKKrwn3/javascript-js-icon-2048x2048-nyxvtvk0.png" witdh="65px" height="65px">
