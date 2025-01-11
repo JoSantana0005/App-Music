@@ -11,6 +11,7 @@
      <img src="https://i.ibb.co/j86Drxg/css-3.png" witdh="65px" height="65px">
      <img src="https://i.ibb.co/pKKrwn3/javascript-js-icon-2048x2048-nyxvtvk0.png" witdh="65px" height="65px">
      <img src="https://nexwebsites.com/images/blog/api.png" witdh="65px" height="65px">
+     <img src="https://i.ibb.co/JBWfJH6/figma.png" witdh="65px" height="65px">
     </div>
    </div>
   </td>
