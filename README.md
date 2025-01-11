@@ -15,6 +15,6 @@
    </div>
   </td>
   <td align="center" width=60%>
-   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_aSeZs9H0ZSydwwzOJZKAYBpygCJ9fYKZiQ&s" width=100% height=50%>
+   <img src="https://i.pinimg.com/736x/a8/f8/13/a8f8135027654029b0e71d9b20365d7b.jpg" width=100% height=50%>
   </td>
  </table>
