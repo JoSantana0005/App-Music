@@ -5,7 +5,7 @@
    favorite albums as well as their songs.<hr>
    <div>
     <h3>Tecnologies</h3>
-    The technologies that I am going to use for this project are the following:
+    <p>The technologies that I am going to use for this project are the following:</p>
     <div>
      <img src="https://i.ibb.co/tL1v6Jt/html-5.png" witdh="65px" height="65px">
      <img src="https://i.ibb.co/j86Drxg/css-3.png" witdh="65px" height="65px">
