@@ -3,7 +3,7 @@
   <td align="justify" width=40%>
    Basically, this music application will be like information on the most popular music at the moment, like the most popular singers at the moment, you can add your favorite singers and   
    favorite albums as well as their songs.<hr>
-   <div align="center">
+   <div>
     <h3>Tecnologies</h3>
     The technologies that I am going to use for this project are the following:
     <div>
