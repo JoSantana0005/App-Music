@@ -1,0 +1,179 @@
+main{
+    border: 1px solid #aaa;
+    position: absolute;
+    top: 65px;
+    left: 275px;
+    width: 80%;
+    height: 100%;
+    color: #fff;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: auto;
+    scroll-behavior: smooth;
+}
+p{
+    font-size: 1em;
+    letter-spacing: 1px;
+    font-weight: 500;
+    max-width: 300px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+span{
+    font-size: 0.89em;
+    letter-spacing: 2px;
+    font-weight: 500;
+    max-width: 300px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+svg{
+    cursor: pointer;
+    transition: padding .1s linear, fill .1s linear;
+}
+svg:hover{
+    padding: 3px;
+    fill: #ddaa0c
+}
+h2{
+    font-size: 1.8em;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+h4{
+    font-size: 1em;
+    letter-spacing: 1px;
+    font-weight: 500;
+    max-width: 300px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+/*Contenedor de los artistas*/
+main .Container--1{
+    width: 100%;
+    height: 35%;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    padding: 2px;
+}
+main .Container--1 .Content--top--1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2px;
+    border-bottom: 2px solid #aaa;
+}
+main .Container--1 .Content--top--1 div{
+    width: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+main .Container--1 .Content--bottom--1{
+    height: 100%;
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: auto;
+    scroll-behavior: smooth;
+}
+main .Container--1 .Content--bottom--1::-webkit-scrollbar{
+    display: none;
+}
+main .Container--1 .Content--bottom--1 .List--Artists{
+    width: 100%;
+    display: flex;
+    height: 100%;
+    flex-direction: row;
+    gap: 10px;
+}
+main .Container--1 .Content--bottom--1 .List--Artists div{
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+main .Container--1 .Content--bottom--1 .List--Artists div img{
+    width: 85%;
+    height: 75%;
+    border-radius: 60px;
+    border: 1px solid #000;
+    transition: border .1s linear, padding .1s linear;
+}
+main .Container--1 .Content--bottom--1 .List--Artists div img:hover{
+    padding: 3px;
+    border: 1px solid #ddaa;
+}
+/*Contendor de los albunes*/
+main .Container--2{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    padding: 2px;
+    flex-direction: column;
+    gap: 3px;
+}
+main .Container--2 .Content--top--2{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px;
+    border-bottom: 2px solid #aaa;
+}
+main .Container--2 .Content--top--2 div{
+    width: 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+main .Container--2 .Content--bottom--2{
+    height: 100%;
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: auto;
+    scroll-behavior: smooth;
+}
+main .Container--2 .Content--bottom--2::-webkit-scrollbar{
+    display: none;
+}
+main .Container--2 .Content--bottom--2 .List--Album{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+main .Container--2 .Content--bottom--2 .List--Album .Album{
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3px;
+    padding: 3px;
+}
+main .Container--2 .Content--bottom--2 .List--Album .Album img{
+    width: 100%;
+    height: 75%;
+    border-radius: 15px;
+    border: 1px solid #000;
+    transition: padding .1s linear, border .1s linear;
+}
+main .Container--2 .Content--bottom--2 .List--Album .Album img:hover{
+    padding: 3px;
+    border: 1px solid #ddaa;
+}
+/*Contenedor de recomendacion*/
+main .Container--3{
+    border: 1px solid #aaa;
+    width: 100%;
+    height: 40%;
+}
+
+
